@@ -11,8 +11,8 @@
     "zh-CN": "轻量优雅的专注番茄钟：支持自由拖动与贴边半隐的主页面悬浮胶囊、倒计时完成庆祝动画与提示音、基于共享 Host 跨端与远程同步的专注历史与统计，纯前端零后台进程。"
   },
   "details": {
-    "en": "### Highlights\n\n- **Zero-Backend Cross-Device & Remote Sync**: Timer state, task note, and completed round history persist to shared Host storage (`api.storage`), staying in sync across Codex Desktop, local Web, and remote CH Web with zero background processes.\n- **Focus History & 7-Day Insights**: Track today's, 7-day, streak, and all-time focus stats with a 7-day trend chart, per-round timeline, record management, and CSV export.\n- **Completion Celebration & Chime**: When time is up, an animated completion card appears in the center of your workspace with ripple rings, particle burst, optional gentle chime, and one-click transition to your recommended break or next focus round.\n- **Draggable & Edge-Docking Capsule**: Drag the compact timer pill anywhere on your workspace; dock it near the left or right edge to tuck away neatly.",
-    "zh-CN": "### 特点\n\n- **纯前端零后台 · 跨端与远程同步**：倒计时状态、任务备注与历史记录直接持久化到共享 Host 存储（`api.storage`），本机 Codex Desktop、本机 Web 与远程 CH Web 实时互通，无需常驻后台进程。\n- **专注记录与近 7 天统计**：内置今日/近 7 天/连续天数/累计统计卡片、近 7 天专注趋势柱状图、按日分组的完成明细、单条删除与 CSV 导出。\n- **倒计时完成动画与柔和提示音**：每轮时间结束时在屏幕中央弹出柔和的完成庆祝动画（脉冲光环、微粒绽放与进度徽章），配合可选轻柔提示音，并支持一键进入建议的短休、长休或下一轮专注。\n- **自由拖动与贴边半隐胶囊**：聊天页悬浮胶囊可拖到屏幕任意位置，贴近左右边缘自动半收起不挡内容，悬停顺滑探出。"
+    "en": "### Highlights\n\n- **Completion Celebration & Chime**: When time is up, an animated completion card appears in the center of your workspace with ripple rings, particle burst, optional gentle chime, and one-click transition to your recommended break or next focus round.\n- **Zero-Backend Cross-Device & Remote Sync**: Timer state, task note, and completed round history persist to shared Host storage (`api.storage`), staying in sync across Codex Desktop, local Web, and remote CH Web with zero background processes.\n- **Focus History & 7-Day Insights**: Track today's, 7-day, streak, and all-time focus stats with a 7-day trend chart, per-round timeline, record management, and CSV export.\n- **Compact Edge-Docking Capsule & Click-to-Edit Time**: Tucks down to a tiny `36px` tomato ear on the edge when idle, glides out smoothly on hover, and lets you click `25:00` directly to enter any custom start duration (e.g. `15` or `12:30`).",
+    "zh-CN": "### 特点\n\n- **倒计时完成动画与柔和提示音**：每轮时间结束时在屏幕中央弹出柔和的完成庆祝动画（脉冲光环、微粒绽放与进度徽章），配合可选轻柔提示音，并支持一键进入建议的短休、长休或下一轮专注。\n- **纯前端零后台 · 跨端与远程同步**：倒计时状态、任务备注与历史记录直接持久化到共享 Host 存储（`api.storage`），本机 Codex Desktop、本机 Web 与远程 CH Web 实时互通，无需常驻后台进程。\n- **专注记录与近 7 天统计**：内置今日/近 7 天/连续天数/累计统计卡片、近 7 天专注趋势柱状图、按日分组的完成明细、单条删除与 CSV 导出。\n- **极简贴边小耳朵 & 点击改时长**：未使用贴边时收窄为仅 `36px` 的迷你番茄图标，悬停顺滑展开；待开始时直接点击 `25:00` 即可原位输入任意自定义开始时长（如 `15` 或 `12:30`）。"
   },
   "author": "codexhost",
   "categories": [
@@ -86,7 +86,9 @@
   "repository": "https://github.com/BytePioneer-AI/codexhost-ext-focus-pomodoro",
   "screenshots": [
     "assets/pomodoro-workspace.png",
-    "assets/pomodoro-widget.png"
+    "assets/pomodoro-celebration.png",
+    "assets/pomodoro-widget.png",
+    "assets/pomodoro-history.png"
   ],
   "icon": "assets/icon.png"
 }
